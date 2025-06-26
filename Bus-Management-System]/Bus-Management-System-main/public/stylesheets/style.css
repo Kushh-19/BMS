@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('registerImg.jpeg'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* Change text color for better visibility */
+}
+
+/* Container for form */
+.container {
+    background-color: rgba(84, 90, 87, 0.838); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0b0b0b;
+}
+
+/* Form Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px #0e0e0e;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #abbbac;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: rgb(240, 233, 233);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #606160;
+}
+
+/* Paragraph and Links */
+p {
+    font-size: 14px;
+    color: #e5d9d9;
+}
+
+a {
+    color: #010a12;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
